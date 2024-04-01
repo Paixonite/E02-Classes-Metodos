@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Conta cliente = new Conta();
+        Conta conta1 = new Conta();
 
-        cliente.nomeDono = "JOAO";
-        cliente.numeroConta = 12345;
-        cliente.saldo = 120.00;
-        cliente.limite = 10000;
+        conta1.dono.nome = "JOAO";
+        conta1.numeroConta = 12345;
+        conta1.saldo = 120.00;
+        conta1.limite = 10000;
 
-        cliente.imprimir();
+        conta1.imprimir();
     }
 }
